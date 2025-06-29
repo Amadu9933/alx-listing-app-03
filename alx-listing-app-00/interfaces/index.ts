@@ -34,3 +34,28 @@ export interface PropertyProps {
   image: string;
   discount: string;
 }
+
+// Booking related interfaces
+export interface BookingDetails {
+  propertyName: string;
+  price: number;
+  bookingFee: number;
+  totalNights: number;
+  startDate: string;
+}
+
+export interface BookingFormData {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  country: string;
+  cardNumber: string;
+  expiryDate: string;
+  cvv: string;
+  cardholderName: string;
+  billingAddress: string;
+  city: string;
+  state: string;
+  zipCode: string;
+}
